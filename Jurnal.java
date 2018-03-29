@@ -12,26 +12,24 @@ import java.util.Scanner;
  * @author Praktikan
  */
 public class Jurnal {
-    /**
-     * @param args the command line arguments
-     */
-   public static void main(String[]args) {
-        Scanner show = new Scanner(System.in);
-        System.out.println("Input :");
-        int n = show.nextInt();
-        long fib[] = new long[n];
-         
-        fib[0] = 0;
-        fib[1] = 1;
-         
-        for(int i = 2; i < n; i++) {
-            fib[i] = fib[i-1] + fib[i-2];
-        }
-         System.out.println("Output :");
-        for (int i = 0; i < n; i++) {
-            System.out.print(fib[i] +  " ");
-            
-        }
-    }
- 
-}
+
+  public static void main(String[]args){
+    int a;
+    int b = 1;
+    boolean ab = false;
+    int input;
+      Scanner in = new Scanner(System.in);
+        
+      System.out.println("Input :");
+      a = in.nextInt();
+      
+       System.out.println("Output :");
+       b = a - b;
+       a = b + a;
+       
+         System.out.println(a + " ");
+          System.out.println();
+  }
+  }
+
+        
